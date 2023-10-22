@@ -5,6 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "webpack --mode production",
+    "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,6 +26,10 @@
     "webpack-cli": "^5.1.4"
   },
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "homepage": "https://github.com/german-spb/ajs#readme",
+  "dependencies": {
+    "@german-spb/ajs": "^1.0.0"
   }
 }
