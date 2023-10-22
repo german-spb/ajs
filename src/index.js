@@ -1,3 +1,10 @@
-const ajs = require('@german-spb/ajs');
+function info() {
+  const m = new Map();
+  m.set('name', 'ajs');
+  m.set('version', '1.0.0');
+  return m;
+}
 
-console.log(ajs.info());
+export default {
+  info
+};
